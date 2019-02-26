@@ -1,0 +1,82 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+html{
+  background-image: url('https://store-images.s-microsoft.com/image/apps.56149.13510798887023509.52cb7b9d-27cf-417d-b33e-e4e758263928.1129934f-d053-41a1-935a-20913a56ea70?mode=scale&q=90&h=720&w=1280');
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.are-de-login{
+  padding: 20px 50px;
+  background: rgb(0,0,0, 0.5);
+  border-bottom: 2px solid #fff;
+  border-radius: 5px;
+  width: 300px;
+  margin-top: 180px;
+
+}
+
+.are-de-login input{
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  border:none!important;
+  outline: none;
+  width: 80%;
+  transition: width 0.5s;
+  color: #fff;
+  font-size: 20px;
+  background-color: rgb(0,0,0,0.2);
+}
+.are-de-login input:hover{
+  width: 90%;
+}
+
+::placeholder { color: rgb(255,255,255,0.4);}
+
+.img-profile{
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: rgb(0,0,0,0.2);
+  border: 1px solid rgb(255,255,255,0.7);
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-profile img{
+  position: center;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.logar{
+  font-size: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border:none;
+  outline: none;
+  background-color: rgb(0,0,0,0.2);
+  color: #bdc3c7;
+  border-bottom: 3px solid #bdc3c7;
+  width: 80%;
+  transition: width 0.5s;
+
+}
+
+.logar:hover{
+  color: #fff;
+  border-color: #fff;
+  width: 100%;
+}
